@@ -1,0 +1,22 @@
+@use "../base/variables" as v;
+
+.btn {
+    text-align: center;
+    display: inline-block;
+    padding: 1.5rem 3.5rem 1rem;
+    border-radius: 2.5rem;
+    color: v.$white;
+    font-weight: 700;
+    line-height: 1
+}
+
+.btn-primary {
+    @extend .btn;
+    color: v.$color-light-red;
+    background-color: v.$white;
+}
+
+.btn-outline {
+    @extend .btn;
+    border: 1px solid v.$white;
+}

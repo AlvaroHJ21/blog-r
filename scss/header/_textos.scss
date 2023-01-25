@@ -1,0 +1,22 @@
+@use "../base/variables" as v;
+
+.header-textos{
+    color: v.$white;
+    text-align: center;
+
+    .heading{
+        margin-top: 5rem;
+        font-size: 6.4rem;
+    }
+
+    p{
+        font-size: 2rem;
+        margin-bottom: 5rem;
+    }
+
+    .botones{
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+}

@@ -1,0 +1,20 @@
+@use "../base/variables" as v;
+
+.header {
+    background-image: url(../img/bg-pattern-intro-desktop.svg), linear-gradient(
+        to right,
+        v.$gradient-very-light-red 0%,
+        v.$gradient-light-red 100%
+    );
+    background-size: 300rem, 100%;
+    background-position: calc(50% + 35rem) calc(50% - 5rem), center;
+    background-repeat: no-repeat;
+    // min-height: 60rem;
+    border-radius: 0 0 0 10rem;
+}
+
+.header-contenido{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15rem;
+}
